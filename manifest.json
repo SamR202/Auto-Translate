@@ -1,0 +1,43 @@
+{
+  "name": "Auto Translate - Complete",
+  "description": "Automatically translates foreign pages with Google Translate, removes blockers, and remembers domains",
+  "version": "1.0",
+  "manifest_version": 3,
+  
+  "permissions": [
+    "storage"
+  ],
+  
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_title": "Auto Translate Extension"
+  }
+}

@@ -1,0 +1,35 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Node modules (if added in future)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build files (if build process added)
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Browser extension packaging
+*.crx
+*.zip
+*.pem
+
+# Private keys and secrets
+secrets/
+private/
+.env
