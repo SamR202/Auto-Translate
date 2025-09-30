@@ -31,7 +31,7 @@ A powerful Chrome extension that automatically translates foreign language web p
 
 1. Clone or download this repository:
 \`\`\`bash
-git clone https://github.com/yourusername/auto-translate-extension.git
+git clone https://github.com/SamR202/Auto-Translate
 cd auto-translate-extension
 \`\`\`
 
